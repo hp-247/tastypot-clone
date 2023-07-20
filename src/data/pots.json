@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Pot 1",
+    "description": "This is pot 1"
+  },
+  {
+    "id": 2,
+    "name": "Pot 2",
+    "description": "This is pot 2"
+  }
+
+]
