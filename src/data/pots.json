@@ -1,13 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Pot 1",
-    "description": "This is pot 1"
+    "name": "Pho",
+    "description": "This is a bowl of pho",
+    "price": 19.99,
+    "image": "c1.png"
   },
   {
     "id": 2,
-    "name": "Pot 2",
-    "description": "This is pot 2"
+    "name": "Chow mein 2",
+    "description": "This is stir fry noodles",
+    "price": 15.55,
+    "image": "c2.png"
   }
 
 ]

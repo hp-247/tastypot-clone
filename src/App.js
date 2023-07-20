@@ -5,8 +5,8 @@ import HomePage from "./components/HomePage";
 import PotDetailsPage from "./components/PotDetailsPage";
 import About from "./components/About";
 import Locations from "./components/Locations";
-import OrderOnline from "./components/OrderOnline";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Order from "./pages/Order";
 
 function App() {
   return (
@@ -14,11 +14,11 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/pot/:id" element={<PotDetailsPage />} />
+          <Route path="/pot" element={<PotDetailsPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/locations" element={<Locations />} />
-          <Route path="/order" element={<OrderOnline />} />
           <Route path="/" element={<HomePage />} />
+          <Route path="/order" element={<Order />} />
         </Routes>
         <Footer />
       </div>
